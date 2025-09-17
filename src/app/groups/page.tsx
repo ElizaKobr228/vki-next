@@ -12,6 +12,7 @@ const GroupsPage = (): React.ReactNode => (
     <h1>Группы</h1>
     <Groups />
   </Page>
+  
 );
 
 export default GroupsPage;
