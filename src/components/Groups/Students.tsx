@@ -9,11 +9,11 @@ const Student = (): React.ReactElement => {
 
   return (
     <div className={styles.Student}>
-      {/* {students.map((group: StudentInterface) => (
-        <h2 key={students.id}>
-          {students.name}
+      {students.map((student: StudentInterface) => (
+        <h2 key={student.id}>
+          {student.first_name}
         </h2>
-      ))} */}
+      ))}
     </div>
   );
 };
